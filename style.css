@@ -47,9 +47,29 @@ nav img{
     color: rgb(253, 253, 253);
     font-size: 13px;
 }
+
 .nav-links ul li a:hover{
-    color: rgb(185, 74, 89);
+    /* color: rgb(185, 74, 89); */
     font-size: 13px;
     font-style: italic;
    }
+
+   .nav-links ul li::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: rgb(185, 74, 89);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+   .nav-links ul li:hover::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    transition: 1s;
+}
 
