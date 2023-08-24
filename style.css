@@ -177,6 +177,11 @@ h1{
     font-size: 66px;
     font-weight: 600;
 }
+.courses h4{
+    font-weight: 400;
+    text-align: center;
+    margin: 10px 0;
+}
 .courses p{
     color: black;
     font-size: 14px;
@@ -330,11 +335,19 @@ h3{
     text-align: justify;
 }
 
+
+.facilities h4{
+    font-weight: 400;
+    text-align: center;
+    margin: 10px 0;
+}
+
 .facilities-col h3{
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: left;
 }
+
 
 
 
@@ -459,6 +472,10 @@ h3{
     padding: 0 10px ;
 }
 
+
+.footer-bottom{
+    margin-top: 15px;
+}
 
 
 
