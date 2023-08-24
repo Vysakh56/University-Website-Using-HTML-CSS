@@ -82,11 +82,11 @@
                 <div class="comment" id="contact-page">
                         
                         <h3>Leave a Comment</h3>
-                        <form class="comment-form">
-                            <input type="text" placeholder="Enter Your Name" required><br>
-                            <input type="text" placeholder="Enter Your Email address" required><br>
-                            <input type="text" placeholder="Enter the Subject" required><br>
-                            <textarea row="5" placeholder="Message" required></textarea>
+                        <form class="comment-form" action="form-handler.php" method="post">
+                            <input type="text" placeholder="Enter Your Name" name="name"><br>
+                            <input type="email" placeholder="Enter Your Email address" name="email"><br>
+                            <input type="text" placeholder="Enter the Subject" name="subject"><br>
+                            <textarea row="5" placeholder="Message" name="message"></textarea>
                             <button type="submit" class="visit-btn" id="btn">
                                 Post comment
                             </button>
