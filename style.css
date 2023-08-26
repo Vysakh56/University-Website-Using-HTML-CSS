@@ -9,7 +9,7 @@
     overflow: auto;  
     overflow-x: hidden;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(eduford_img/banner.png);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/index.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -22,8 +22,11 @@ nav{
     align-items: center;
 }
 
+
 nav img{
-    width: 150px;
+    width: 300px;
+    margin-left: -60px;
+    margin-top: -20px;
 }
 
 .nav-links{
@@ -489,7 +492,7 @@ h3{
 .sub-header{
     height: 50vh;
     width:100%;
-    background-image: linear-gradient(rgb(4,9,30,0.7),rgb(4,9,30,0.7)),url(eduford_img/background.jpg);
+    background-image: linear-gradient(rgb(4,9,30,0.7),rgb(4,9,30,0.7)),url(images/about.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
