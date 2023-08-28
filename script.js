@@ -1,6 +1,7 @@
 var navLinks = document.getElementById("navLinks");
 
-// For Toggle Menu
+
+// Toggle Menu Option Settings
 
 function ShowMenu(){
     navLinks.style.right = "0";
