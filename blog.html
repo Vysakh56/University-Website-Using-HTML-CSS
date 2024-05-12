@@ -1,114 +1,140 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>GR University</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>GR University</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
 
-    </head>
+  <body>
+    <!------------------------------------------ BLOG  --------------------------------------------->
 
-    <body>
+    <section
+      class="sub-header"
+      id="blog-head"
+      style="background-image: url(images/blog.jpg); height: 400px"
+    >
+      <nav>
+        <a href="index.html"><img src="images/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark" onclick="HideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSES</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="ShowMenu()"></i>
+      </nav>
 
-        <!------------------------------------------ BLOG  --------------------------------------------->
+      <h1>Exploring Insights and Knowledge</h1>
+    </section>
 
-        <section class="sub-header" id="blog-head" style="background-image: url(images/blog.jpg); height: 400px">
-            
-            <nav>
-                <a href="index.html"><img src="images/logo.png"></a>
-                <div class="nav-links" id="navLinks">
-                    <i class="fa-solid fa-xmark" onclick="HideMenu()"></i>
-                    <ul>
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="about.html">ABOUT</a></li>
-                        <li><a href="course.html">COURSES</a></li>
-                        <li><a href="blog.html">BLOG</a></li>
-                        <li><a href="contact.html">CONTACT</a></li>
-                    </ul>
-                </div>
-                <i class="fa-solid fa-bars" onclick="ShowMenu()"></i>
-            </nav>
+    <!---------------------------------------- BLOG CONTENT  -------------------------------------->
 
-        <h1>Exploring Insights and Knowledge</h1>
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="images/blog-info.jpg" />
+          <h2>Exploring New Horizons in Education</h2>
+          <p>
+            In today's fast-paced world, the importance of lifelong learning
+            cannot be overstated. As industries evolve and technology advances,
+            the skills required in the job market are constantly changing.
+            Lifelong learning ensures that individuals stay relevant and
+            adaptable, ready to take on new challenges and opportunities.
+          </p>
+          <p>
+            Whether you're a recent graduate or a seasoned professional,
+            embracing lifelong learning can have a profound impact on your
+            career trajectory. It's about fostering a growth mindset and seeking
+            out new knowledge and skills, not just to excel in your current
+            role, but to position yourself for future success.
+          </p>
+          <p>
+            Our university is committed to providing a wide range of programs
+            and resources that support lifelong learners.
+          </p>
+          <br />
+          <ul>
+            <li>
+              Stay updated with the latest advancements and offerings in our
+              educational programs.
+            </li>
+            <li>
+              Discover new opportunities for academic growth and professional
+              development.
+            </li>
+            <li>
+              Explore a wide range of courses designed to meet the needs of
+              diverse learners.
+            </li>
+            <li>
+              Join our community of learners and unlock your potential for
+              success.
+            </li>
+          </ul>
+        </div>
 
-        </section>
+        <div class="blog-right">
+          <h2>Post Categories</h2>
+          <div>
+            <span>Student Success</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Faculty Spotlight</span>
+            <span>15</span>
+          </div>
+          <div>
+            <span>Campus Events</span>
+            <span>9</span>
+          </div>
+          <div>
+            <span>Research Insights</span>
+            <span>12</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!---------------------------------------------------------- Footer -------------------------------------------------------->
 
-        <!---------------------------------------- BLOG CONTENT  -------------------------------------->
-
-        <section class="blog-content">
-            <div class="row">
-                
-                <div class="blog-left">
-                    <img src="images/blog-info.jpg">
-                    <h2>Exploring New Horizons in Education</h2>
-                    <p>In today's fast-paced world, the importance of lifelong learning cannot be overstated. As industries evolve and technology advances, the skills required in the job market are constantly changing. Lifelong learning ensures that individuals stay relevant and adaptable, ready to take on new challenges and opportunities.</p>
-                    <p>Whether you're a recent graduate or a seasoned professional, embracing lifelong learning can have a profound impact on your career trajectory. It's about fostering a growth mindset and seeking out new knowledge and skills, not just to excel in your current role, but to position yourself for future success.</p>
-                    <p>Our university is committed to providing a range of programs and resources that support lifelong learners.</p>
-                    <br>
-                        <ul>
-                            <li>Stay updated with the latest advancements and offerings in our educational programs.</li>
-                            <li>Discover new opportunities for academic growth and professional development.</li>
-                            <li>Explore a wide range of courses designed to meet the needs of diverse learners.</li>
-                            <li>Join our community of learners and unlock your potential for success.</li>
-                        </ul>    
-
-                </div>
-
-
-                <div class="blog-right">
-
-                    <h2>Post Categories</h2>
-                    <div>
-                        <span>Student Success</span>
-                        <span>21</span>
-                    </div>
-                    <div>
-                        <span>Faculty Spotlight</span>
-                        <span>15</span>
-                    </div>
-                    <div>
-                        <span>Campus Events</span>
-                        <span>9</span>
-                    </div>
-                    <div>
-                        <span>Research Insights</span>
-                        <span>12</span>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-
-
-<!---------------------------------------------------------- Footer -------------------------------------------------------->
-
-<footer class="footer">
-    <h4>Useful Links</h4>
-    <p>Explore the various resources and information available to help you navigate GR University.</p>
-    <div class="icons">
+    <footer class="footer">
+      <h4>Useful Links</h4>
+      <p>
+        Explore the various resources and information available to help you
+        navigate the GR University.
+      </p>
+      <div class="icons">
         <i class="fa-brands fa-facebook"></i>
         <i class="fa-brands fa-instagram"></i>
         <i class="fa-brands fa-twitter"></i>
         <i class="fa-brands fa-linkedin"></i>
-    </div>
+      </div>
 
-    <div class="footer-bottom">
+      <div class="footer-bottom">
         <p>&copy; 2023 GR University. All rights reserved.</p>
-    </div>
+      </div>
+    </footer>
 
-</footer>
-
-        <script src="script.js" async defer></script>
-
-    </body>
+    <script src="script.js" async defer></script>
+  </body>
 </html>
